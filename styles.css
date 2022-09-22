@@ -1,9 +1,13 @@
 #container{
     border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(16, 12px);
+    grid-template-rows: repeat(16,12px);
+  
 }
 
 #container>div{
-    border: 2px solid green;
-    height: 8px;
-    width: 8px;
+    background-color: pink;
+    border: 1px solid black;
 }
+
