@@ -7,7 +7,14 @@
 }
 
 #container>div{
-    background-color: pink;
+    background-color: white;
     border: 1px solid black;
+    transition: 2s;
+
+}
+
+#container > div:hover{
+    background-color: black;
+    transition: 0s;
 }
 
