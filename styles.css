@@ -1,4 +1,4 @@
-#container{
+#canvas-wrapper{
     border: 2px solid red;
     display: grid;
     height: 480px;
@@ -8,9 +8,7 @@
   
 }
 
-#container>div{
+#canvas-wrapper>div{
     background-color: white;
-    border: 1px solid black;
-    transition: 2s;
-
+    transition: 0.75s;
 }
