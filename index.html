@@ -9,17 +9,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="canvas-wrapper"></div>
     <div id="control-wrapper">
         <div id="grid-editor-wrapper">
-            <p>Pixels</p>
             <form>
-                <div id="decrease">-</div>
-                <input type="number" id="gridNumber" value="1" min="1" max="64">
-                <div id="decrease">+</div>
+                <h1>Etch-a-Sketch</h1>
+                <p>Select grid dimensions</p>
+                <div id="decrease" class="valuebutton" onclick="minusGrid()">-</div>
+                <input type="number" id="gridNumber" value="32" min="1" max="64" onchange="gridEditor()">
+                <div id="increase" class="valuebutton"onclick="addGrid()">+</div>
             </form>
         </div>
     </div>
-
+    <div id="canvas-wrapper"></div>
 </body>
 </html>
