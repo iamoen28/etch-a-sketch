@@ -2,11 +2,12 @@
     border: 2px solid red;
     display: grid;
     height: 480px;
-    width: 480px;
+    
+}
+
+#canvas-wrapper, #grid-editor-wrapper{
     margin: 0 auto;
-    /* grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(16,1fr); */
-  
+    width: 480px;
 }
 
 .grid{
@@ -14,11 +15,20 @@
     /* transition: 0.75s; */
 }
 
+#sub-control{
+    display: flex;
+    align-items: baseline;
+    justify-content:space-between;
+}
 form {
     width: 300px;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 15px;
+}
+
+#sub-control{
+    padding-bottom: 15px;
 }
 
 #gridNumber{
