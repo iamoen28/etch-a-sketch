@@ -3,12 +3,36 @@
     display: grid;
     height: 480px;
     width: 480px;
+    margin: 0 auto;
     /* grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16,1fr); */
   
 }
 
-#canvas-wrapper>div{
+.grid{
     background-color: white;
-    transition: 0.75s;
+    /* transition: 0.75s; */
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#gridNumber{
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.valuebutton{
+    display: inline-block;
+    cursor: pointer;
 }
